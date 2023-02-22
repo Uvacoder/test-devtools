@@ -10,8 +10,7 @@
     "test:watch": "jest --watch",
     "lint": "next lint",
     "validate": "npm-run-all lint test",
-    "format": "prettier --write '**/*.{js,ts,tsx}'",
-    "postinstall": "rimraf public/vs node_modules/monaco-editor && npm install monaco-editor --force --no-save && mv node_modules/monaco-editor/min/vs public"
+    "format": "prettier --write '**/*.{js,ts,tsx}'"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
@@ -33,8 +32,8 @@
     "next-themes": "^0.1.1",
     "pako": "^2.0.4",
     "pupa": "^3.1.0",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.0.2",
+    "react-dom": "18.0.2",
     "react-dropzone": "^12.0.4",
     "react-icons": "^4.3.1",
     "react-reflex": "^4.0.6",
